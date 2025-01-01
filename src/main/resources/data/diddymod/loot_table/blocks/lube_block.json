@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "diddymod:lube_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "diddymod:blocks/lube_block"
+}

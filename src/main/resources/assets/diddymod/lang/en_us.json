@@ -1,7 +1,20 @@
 {
   "item.diddymod.lube": "Lube",
   "item.diddymod.lebonbon_shard": "Lebonbon Shard",
+  "item.diddymod.chisel": "Chisel",
 
-  "block.diddymod.lube_block": "Block of Lube"
+
+  "item.diddymod.crab_rangoon": "Crab Rangoon",
+  "item.diddymod.diddy_daiquiri": "Diddy Daiquiri",
+
+  "block.diddymod.lube_block": "Block of Lube",
+  "block.diddymod.diddy_ore": "Diddy Ore",
+  "block.diddymod.diddy_deepslate_ore": "Deepslate Diddy Ore",
+  "block.diddymod.magic_block": "Magic Block",
+
+  "creativetab.diddymod.diddy_items": "Diddy Items",
+  "creativetab.diddymod.diddy_blocks": "Diddy Blocks",
+  "creativetab.diddymod.diddy_food": "Diddy Food"
+
 
 }

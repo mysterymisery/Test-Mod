@@ -1,0 +1,8 @@
+{
+  "magic_block_use": {
+    "subtitle": "sounds.diddymod.magic_block_use",
+    "sounds": [
+      "diddymod:magic_block_use"
+    ]
+  }
+}

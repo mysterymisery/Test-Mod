@@ -15,7 +15,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.mysterymisery.diddymod.block.ModBlocks;
+import net.mysterymisery.diddymod.item.ModCreativeModeTabs;
 import net.mysterymisery.diddymod.item.ModItems;
+import net.mysterymisery.diddymod.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -37,10 +39,15 @@ public class TutorialMod
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        //Creative mode tabs
+        ModCreativeModeTabs.register(modEventBus);
         //register items
         ModItems.register(modEventBus);
         //Registers Blocks
         ModBlocks.register(modEventBus);
+
+        //REGISTERS SOUNDS
+        ModSounds.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
