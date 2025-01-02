@@ -2,6 +2,9 @@
   "item.diddymod.lube": "Lube",
   "item.diddymod.lebonbon_shard": "Lebonbon Shard",
   "item.diddymod.chisel": "Chisel",
+  "item.diddymod.blaze_rod_bundle": "Blaze Rod Bundle",
+  "item.diddymod.mithril": "Mythril",
+
 
 
   "item.diddymod.crab_rangoon": "Crab Rangoon",
@@ -11,10 +14,19 @@
   "block.diddymod.diddy_ore": "Diddy Ore",
   "block.diddymod.diddy_deepslate_ore": "Deepslate Diddy Ore",
   "block.diddymod.magic_block": "Magic Block",
+  "block.diddymod.mithril_ore": "Mythril Ore",
+  "block.diddymod.mithril_deepslate_ore": "Deepslate Mythril Ore",
 
   "creativetab.diddymod.diddy_items": "Diddy Items",
   "creativetab.diddymod.diddy_blocks": "Diddy Blocks",
-  "creativetab.diddymod.diddy_food": "Diddy Food"
+  "creativetab.diddymod.diddy_food": "Diddy Food",
+
+
+  "tooltip.diddymod.magic_block.tooltip": "Throw §kLube§r On This",
+  "tooltip.diddymod.chisel.shift_down": "This Item Effects Diddy Ore",
+  "tooltip.diddymod.chisel": "Press §5Shift§r For More Information",
+  "tooltip.diddymod.crab_rangoon": "Yummy..."
+
 
 
 }

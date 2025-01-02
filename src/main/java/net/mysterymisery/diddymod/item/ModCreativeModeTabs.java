@@ -24,6 +24,8 @@ public class ModCreativeModeTabs
                             output.accept(ModItems.LUBE.get());
                             output.accept(ModItems.LEBONBON_SHARD.get());
                             output.accept(ModItems.CHISEL.get());
+                            output.accept(ModItems.BLAZE_ROD_BUNDLE.get());
+                            output.accept(ModItems.MITHRIL.get());
                     })
                     .build());
 
@@ -37,6 +39,8 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.LUBE_BLOCK.get());
                         output.accept(ModBlocks.DIDDY_ORE.get());
                         output.accept(ModBlocks.DIDDY_DEEPSLATE_ORE.get());
+                        output.accept(ModBlocks.MITHRIL_ORE.get());
+                        output.accept(ModBlocks.MITHRIL_DEEPSLATE_ORE.get());
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
                     })
                     .build());

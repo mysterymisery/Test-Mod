@@ -23,6 +23,7 @@ public class ModBlocks
 
     // TO ADD NEW BLOCKS COPY THE CODE BELOW
     //LUBE BLOCK
+    //IF YOU DONT WANT TO HAVE A LOOT TABLE USE THE .noLootTable() METHOD
     public static final RegistryObject<Block> LUBE_BLOCK = registerBlock("lube_block",
             () -> new LubeBlock(BlockBehaviour.Properties.of()
                     .strength(4f)
@@ -42,6 +43,15 @@ public class ModBlocks
                     .requiresCorrectToolForDrops()
                     .noOcclusion()
                     .sound(SoundType.SCULK_SENSOR)));
+    public static final RegistryObject<Block> MITHRIL_ORE = registerBlock("mithril_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2,4), BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> MITHRIL_DEEPSLATE_ORE = registerBlock("mithril_deepslate_ore",
+            () -> new DropExperienceBlock(UniformInt.of(3,6), BlockBehaviour.Properties.of()
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of()
                     .strength(5f)
